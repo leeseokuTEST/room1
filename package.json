@@ -1,0 +1,23 @@
+{
+  "name": "sqlnode14react",
+  "version": "1.0.0",
+  "description": "node14버젼의 카페24특별호스팅으로 제작하는 광고웹앱",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon ./web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leeseoku/sqlnode14react.git"
+  },
+  "author": "leeseoku",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7"
+  }
+}
